@@ -11,6 +11,12 @@
     <description>Adds a Restart IDE action to the File menu (File → Restart IDE) with Ctrl+Alt+Delete shortcut.</description>
     <url>https://github.com/stefanofornari/netbeans-restart-ide</url>
 
+    <developers>
+        <developer>
+            <name>Stefano Fornari</name>
+        </developer>
+    </developers>
+    
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
