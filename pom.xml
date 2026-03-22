@@ -23,8 +23,8 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/stefanofornari/nb-restart.git</connection>
-        <developerConnection>scm:git:ssh://github.com/stefanofornari/nb-restart.git</developerConnection>
+        <connection>scm:git:git@github.com:stefanofornari/nb-restart.git</connection>
+        <developerConnection>scm:git:ssh://github.com:stefanofornari/nb-restart.git</developerConnection>
         <url>https://github.com/stefanofornari/netbeans-restart-ide</url>
         <tag>HEAD</tag>
     </scm>
