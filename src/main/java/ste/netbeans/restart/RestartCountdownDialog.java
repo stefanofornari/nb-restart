@@ -65,7 +65,7 @@ public class RestartCountdownDialog extends JDialog {
      * @param modal whether the dialog is modal
      */
     public RestartCountdownDialog(Runnable restartCallback, int countdownSeconds, boolean modal) {
-        super((Frame) null, "Restart IDE", modal);
+        super((Frame) null, "Restart", modal);
         this.restartCallback = restartCallback;
         this.secondsLeft = countdownSeconds;
 

@@ -1,6 +1,6 @@
 # Restart IDE — NetBeans Plugin
 
-A minimal NetBeans plugin that adds a **Restart IDE** action to the **File** menu and binds it to the **Ctrl+Shift+Backspace** shortcut.
+A minimal NetBeans plugin that adds a **Restart** action to the **File** menu and binds it to the **Ctrl+Shift+Backspace** shortcut.
 
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 ![NetBeans](https://img.shields.io/badge/NetBeans-29%2B-green.svg)
@@ -11,7 +11,7 @@ A minimal NetBeans plugin that adds a **Restart IDE** action to the **File** men
 
 | Feature | Detail |
 |---|---|
-| Menu entry | **File → Restart IDE** (after a separator, at the very end) |
+| Menu entry | **File → Restart** (after a separator, at the very end) |
 | Keyboard shortcut | **Ctrl + Shift + Backspace** |
 | Icon | Circular-arrow restart icon in the menu item |
 | Restart mechanism | `LifecycleManager.markForRestart()` + `exit()` (graceful save prompts preserved) |
@@ -86,8 +86,8 @@ Request an Apache ID at <https://id.apache.org/> or contribute as an external au
 Ensure `pom.xml` contains accurate metadata:
 
 ```xml
-<name>Restart IDE</name>
-<description>Adds a Restart IDE action …</description>
+<name>Restart</name>
+<description>Adds a Restart action …</description>
 <url>https://github.com/you/netbeans-restart-ide</url>
 <licenses>
     <license>
@@ -115,7 +115,7 @@ git push origin v1.0.0
 1. Log in at <https://plugins.netbeans.apache.org/>.
 2. Click **Upload Plugin**.
 3. Fill in the form:
-   - **Plugin name**: `Restart IDE`
+   - **Plugin name**: `NetBeans Restart`
    - **Category**: `IDE Features` (or `Tools`)
    - **NBM file**: upload `target/restart-ide-1.0.0.nbm`
    - **Short description**: one-liner shown in the search results.

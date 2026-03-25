@@ -3,9 +3,9 @@
           "https://www.netbeans.org/dtds/filesystem-1_2.dtd">
 
 <!--
-  layer.xml 1 NetBeans module layer for the Restart IDE plugin.
+  layer.xml 1 NetBeans module layer for the Restart plugin.
 
-  Added global keybinding registration for the Restart IDE action
+  Added global keybinding registration for the Restart action
   Ctrl+Shift+Delete (CS-DELETE).
 -->
 <filesystem>

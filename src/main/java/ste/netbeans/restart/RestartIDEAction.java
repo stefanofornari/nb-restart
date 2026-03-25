@@ -62,7 +62,7 @@ import org.openide.util.NbBundle;
 )
 @ActionReferences({
     //  File menu
-    // Put Restart IDE just after Exit (position 2200)
+    // Put Restart just after Exit (position 2200)
     @ActionReference(
         path = "Menu/File",
         position = 3000
@@ -73,7 +73,7 @@ import org.openide.util.NbBundle;
         name = "CS-BACK_SPACE"          // Ctrl+Shift+Backspace
     )
 })
-@NbBundle.Messages("CTL_RestartIDEAction=Restart IDE")
+@NbBundle.Messages("CTL_RestartIDEAction=&Restart...")
 public final class RestartIDEAction implements ActionListener {
 
     /**
