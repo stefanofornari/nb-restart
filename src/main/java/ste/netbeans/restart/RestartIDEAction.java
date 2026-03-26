@@ -38,7 +38,6 @@ import org.openide.awt.ActionID;
 import org.openide.awt.ActionReference;
 import org.openide.awt.ActionReferences;
 import org.openide.awt.ActionRegistration;
-import org.openide.util.NbBundle;
 
 /**
  * Action that restarts the NetBeans IDE.
@@ -73,7 +72,7 @@ import org.openide.util.NbBundle;
         name = "CS-BACK_SPACE"          // Ctrl+Shift+Backspace
     )
 })
-@NbBundle.Messages("CTL_RestartIDEAction=&Restart...")
+
 public final class RestartIDEAction implements ActionListener {
 
     /**
