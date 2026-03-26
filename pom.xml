@@ -8,6 +8,8 @@
 
     <name>NetBeans Restart</name>
     <description>NetBeans plug-in that adds a Restart action to the File menu (File → Restart) with Ctrl+Alt+Backspace shortcut</description>
+    <url>https://github.com/stefanofornari/nb-restart</url>
+
 
     <developers>
         <developer>
